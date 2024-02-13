@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -16,7 +17,7 @@ export const Projects = () => {
       title: "SHOPIT",
       description: "Full-Stack E-commerce Website",
       imgUrl: projImg3,
-      url: "https://github.com/vanshiika16/shopit-backend",
+      url: "https://github.com/vanshiika16/shop-it",
     },
     {
       title: "EXPENSE TRACKER",
@@ -24,6 +25,12 @@ export const Projects = () => {
       imgUrl: projImg2,
       url:"https://github.com/vanshiika16/Expenses_Tracker",
     },
+    {
+      title: "FitFreak",
+      description: "Fitness App",
+      imgUrl: projImg6,
+      url: "https://vanshiika16.github.io/myapp/",
+    }, 
     {
       title: "My Perf Trip",
       description: "Travel Agency Website",
@@ -41,7 +48,7 @@ export const Projects = () => {
       title: "Portfolio",
       description: "My Personal Portfolio",
       imgUrl: projImg5,
-      url: "https://github.com/vanshiika16/Portfolio",
+      url: "https://vanshiika16.github.io/myapp/",
     }
   ];
 
@@ -88,14 +95,16 @@ export const Projects = () => {
                       <p></p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>CODSOFT - Web Developer </p> <p>(<time dateTime="2024-01">August, 2023</time> - September, 2023)</p> 
-                      <p>HCL Edutech - Java Programmer</p> <p>
+                      <p> ‣ Internxt Technologies Pvt Ltd. - Full Stack Developer</p>  <p>
+                      (<time dateTime="2024-01">August, 2023</time> - February, 2024)</p>
+                      <p> ‣ CODSOFT - Web Developer </p> <p>(<time dateTime="2024-01">August, 2023</time> - September, 2023)</p> 
+                      <p> ‣ HCL Edutech - Java Programmer</p> <p>
                       (<time dateTime="2024-01">February, 2022</time> - August, 2022)</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p> ➡ The Complete 2023 Web Development Bootcamp </p>
                       <p> ➡ Agile Methodology Virtual Experience Program</p>
-                      <p>➡ Data Science Foundations </p>
+                      <p> ➡ Data Science Foundations </p>
                       <p> ➡ Smart English Basics for Professionals </p>
                       <p> ➡ Cybersecurity Job Simulation</p>
                     </Tab.Pane>
